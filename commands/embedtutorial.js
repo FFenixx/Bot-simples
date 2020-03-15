@@ -1,7 +1,7 @@
-const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 
 exports.run = async (client, message) => {
-let embed = new Discord.RichEmbed()
+let embed = new MessageEmbed()
 .setAuthor(name, [icon], [url])
 .setTitle("TITULO")
 .setDescription("Descrição")
