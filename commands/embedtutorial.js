@@ -10,7 +10,7 @@ setURL(/*URL*/)
 .setImage("LINK DA IMAGEM")
 .setThumbnail("LINK DA IMAGEM")
 .setFooter("MENSAGEM")
-.addBlackField() // pula uma linha
+.addField('\u200B', '\u200B') // pula uma linha
 .setColor(/*COR DO EMBED*/)
 setTimestamp() // data atual
 message.channel.send(embed)
